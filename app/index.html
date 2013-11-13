@@ -31,23 +31,9 @@
             </div>
 
             <div class="jumbotron">
-                <h1>'Allo, 'Allo!</h1>
-                <p class="lead">Always a pleasure scaffolding your apps.</p>
-                <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-            </div>
-
-            <div class="row marketing">
-                <div class="col-lg-6">
-                    <h4>HTML5 Boilerplate</h4>
-                    <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-                    <h4>Bootstrap</h4>
-                    <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-
-
-
-                </div>
+                <h1 data-bind="text: greetings"></h1>
+                <p class="lead" data-bind="text: message"></p>
+                <p><a class="btn btn-lg btn-success" href="#" data-bind="text: successMessage"></a></p>
             </div>
 
             <div class="footer">
@@ -60,6 +46,8 @@
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/sass-bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bower_components/knockout.js/knockout.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -75,10 +63,6 @@
 
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
-        <!-- endbuild -->
-
-        <!-- build:js(.tmp) scripts/coffee.js -->
-        <script src="scripts/hello.js"></script>
         <!-- endbuild -->
 
         <!-- build:js scripts/plugins.js -->
