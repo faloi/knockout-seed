@@ -4,6 +4,7 @@ knockout-seed
 ## Prerrequisitos
 
 * [NodeJS](http://nodejs.org/)
+* [Compass](http://compass-style.org/)
 * [Yeoman](http://yeoman.io/) - su instalación incluye [Grunt](http://gruntjs.com/) y [Bower](http://bower.io/)
 
 ## Initial setup
