@@ -6,6 +6,7 @@ knockout-seed
 * [NodeJS](http://nodejs.org/)
 * [Compass](http://compass-style.org/)
 * [Yeoman](http://yeoman.io/) - su instalación incluye [Grunt](http://gruntjs.com/) y [Bower](http://bower.io/)
+* [Karma](http://karma-runner.github.io)
 
 ## Initial setup
 
@@ -19,6 +20,11 @@ Entre las dependencias instaladas se encuentra [LiveReload](http://livereload.co
     
 Esto levanta un server en el puerto _9000_ que se va a actualizar cada vez que editemos y guardemos un archivo fuente.
 
-Por ultimo, para correr los tests utilizaremos [Karma](http://karma-runner.github.io/0.10/index.html), un test runner que continuamente monitorea los sources y los tests y corre toda la suite cada vez que haya algún cambio. Para correrlo basta con ejecutar en una consola:
+Por ultimo, para correr los tests utilizaremos [Karma](http://karma-runner.github.io/), un test runner que continuamente monitorea los sources y los tests y corre toda la suite cada vez que haya algún cambio. Para correrlo basta con ejecutar en una consola:
     
     karma start
+
+## Frameworks principales
+
+* [Knockout](http://knockoutjs.com/) - Simplify dynamic JavaScript UIs with the Model-View-View Model (MVVM)
+* [Jasmine](http://pivotal.github.io/jasmine/) - Behavior-driven development framework for testing JavaScript code
