@@ -24,7 +24,8 @@ Por ultimo, para correr los tests utilizaremos [Karma](http://karma-runner.githu
     
     karma start
 
-## Frameworks principales
+## Frameworks y tecnologías principales
 
 * [Knockout](http://knockoutjs.com/) - Simplify dynamic JavaScript UIs with the Model-View-View Model (MVVM)
 * [Jasmine](http://pivotal.github.io/jasmine/) - Behavior-driven development framework for testing JavaScript code
+* [CoffeeScript](http://coffeescript.org/) - An attempt to expose the good parts of JavaScript in a simple way
