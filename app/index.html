@@ -19,30 +19,32 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
-        <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <h3 class="text-muted">knockout seed</h3>
+        <div class="container" data-bind="foreach: orders">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-bind="text: contact"></h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            Envio:
+                        </div>
+                        <div class="col-md-4 text-right">
+                            <h3 data-bind="text: amount"></h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            Estado:
+                        </div>
+                        <div class="col-md-4 text-right">
+                            <a href="#" class="btn btn-primary">Ver</a>
+                            <a href="#" class="btn btn-default">Editar</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="jumbotron">
-                <h1 data-bind="text: greetings"></h1>
-                <p class="lead" data-bind="text: message"></p>
-                <p><a class="btn btn-lg btn-success" href="#" data-bind="text: successMessage"></a></p>
-            </div>
-
-            <div class="footer">
-                <p>♥ from the Yeoman team</p>
-            </div>
-
         </div>
-
-
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/jquery.js"></script>
